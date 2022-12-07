@@ -24,4 +24,34 @@ body{
 .left3,
 .right3{
     width: 512px;
+    text-align: center;
+    line-height: 3vw;
+}
+.right1,
+.right2,
+.right3{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+img{
+    border-radius: 3vw;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    font-family: cursive;
+    font-size: 1vw;
+}
+#p1,
+#p3,
+#p5{
+    padding-bottom: 2vw;
+    padding-right: 20vw;
+}
+#p2,
+#p4{
+    padding-bottom: 2vw;
+    padding-left: 20vw;
 }
