@@ -14,20 +14,32 @@ header {
     background-color: black;
     width: 100%;
 }
-
+.logo{
+    cursor: pointer;
+}
 .navbar-desk {
     background-color: black;
 }
 
-.navbar {
+.navbar{
+    position: relative;
     color: white;
     text-decoration: none;
     padding-right: 4vw;
+    transition: 1s all ;
 }
-
+.navbar-desk a:hover{
+    color: yellow;
+}
 .logo {
     margin-right: 50vw;
     width: 3vw;
+}
+
+.text h1{
+    font-size: 10vw;
+    letter-spacing: 4vw;
+    text-align: center;
 }
 
 .back {
@@ -74,7 +86,7 @@ header {
 }
 
 .photo:hover {
-    margin-right: 1.3vw;
+    margin: 1vw;
     height: 23vw;
     width: 43vw;
 }
