@@ -125,9 +125,13 @@ header {
 }
 
 .write {
-    margin-left: 2vw;
+    display: flex;
+    align-items: center;
+    
 }
-
+.tg {
+    width: 5vw;
+}
 .contact {
     margin-top: 2vw;
     border: 0.1vw solid black;
