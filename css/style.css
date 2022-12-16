@@ -41,7 +41,7 @@ header {
 }
 
 .back {
-    width: 80vw;
+    width: 100vw;
     margin: 0 auto;
 }
 
@@ -49,21 +49,27 @@ header {
     height: 200px;
     border-color: transparent;
 }
-
-.back img:hover {
-    margin: 10px;
-    height: 180px;
-    padding: -100px;
-}
+/* .back img:hover {
+    border: 10px solid ;
+} */
 
 .image {
     height: 200px;
     background-size: contain;
     background-repeat: no-repeat;
 }
-.image:hover {
-    margin: 10px;
-    height: 180px;
+/* .image:hover {
+    border: 10px solid ;
+} */
+
+#img {
+    src: url(img/334af30b-cecd-46d5-b25e-f3d7200961ed-GettyImages-1007194468.webp);
+    height: 200px;
+}
+
+.line {
+    display: flex;
+    height: 200px;
 }
 
 @media (max-width: 800px) {
