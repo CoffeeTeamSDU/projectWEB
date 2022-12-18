@@ -51,14 +51,6 @@ body {
     line-height: 1.5;
     background-color:#BE9063;
 }
-
-.menu-subtitle {
-    text-transform: uppercase;
-    font-family: SpartanLimport;
-    color: #BE9063;
-    font-size: 40px;
-}
-
 .menu {
     background-color: #BE9063;
     display: inline-flex;
@@ -67,19 +59,22 @@ body {
 }
 
 .menu-section {
+    border-bottom: 0.5vw solid black;
+     border-top: 0.5vw solid black;
+    border-radius: 2vw;
     float: left;
     background-color:#BE9063;
     width: 25%;
-    padding: 2rem;
+    padding: 2vw;
     height: 25vw;
     z-index: 2;
 }
 
 .menu-flip-card {
     background-color: transparent;
-    width: 90%;
-    height: 105%;
-    perspective: 1000px;
+    width: 95%;
+    height: 100%;
+    perspective: 70vw;
     z-index: 3;
 }
 
@@ -90,7 +85,7 @@ body {
     text-align: center;
     transition: transform 0.5s;
     transform-style: preserve-3d;
-    box-shadow: 9px 9px 16px#BE9063, -9px -9px 16px #BE9063;
+    box-shadow: 1vw 1vw 1.5vw#BE9063, -1vw -1vw 1.5vw #BE9063;
     border-radius: 5%;
     background: none;
 }
@@ -137,45 +132,46 @@ body {
 .menu-header-container {
     display: inline-flex;
     width: 100%;
-    padding: 1rem;
+    padding: 1vw;
 }
 
 .menu-hr-container {
     width: 100%;
-    height: 41px;
+    height: 5vw;
     padding-top: 2.5%;
 }
 
 .menu-hr {
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-top: 1vw;
+    margin-bottom: 2vw;
     border: 0;
     
-    border-top: 1px solid #eee;
+    border-top: 0.1vw solid #eee;
     border-color: black;
 }
 
 .menu-image {
-    position: relative;
+    background-clip: initial;
+    /* position: relative; */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     width: 100%;
-    height: 100%;
+    height: 100%; 
 }
 .about-text{
     color: black;
 }
 .menu-circle-image {
-    width: 75px;
+    width: 7vw;
 }
 
 .menu-button-on {
     background-color: #E0E5EC;
     border-radius: 50%;
-    border: 5px solid #E0E5EC;
+    border: 1.2vw solid #E0E5EC;
     width: 10%;
-    transition: 0.5s;
+    transition: 1s;
     box-shadow: none;
     outline: none;
 }
@@ -187,10 +183,10 @@ body {
 .menu-button-off {
     background-color: #E0E5EC;
     border-radius: 50%;
-    border: 5px solid #E0E5EC;
+    border: 1.2vw solid #E0E5EC;
     width: 10%;
     outline: none;
     transition: 0.5s;
-    box-shadow: 2px 2px 8px rgb(163, 177, 198, 0.6), -2px -2px 12px rgba(255, 255, 255, 0.5);
+    box-shadow: 0.2vw 0.2vw 0.5vw rgb(163, 177, 198, 0.6), -0.2vw -0.2vw 0.5vw rgba(255, 255, 255, 0.5);
 }
 
