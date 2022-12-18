@@ -20,6 +20,8 @@ header {
 
 .logo {
     cursor: pointer;
+    margin-right: 30vw;
+    height: 10vh;
 }
 
 .navbar-desk {
@@ -38,13 +40,10 @@ header {
     color: #A4978E;
     border-bottom: .1rem solid #A4978E;
     padding-bottom: .5rem;
+    transition: 0.5s all;
 }
 .content h3{
     margin-left: 18vw;
-}
-.logo {
-    margin-right: 30vw;
-    height: 10vh;
 }
 
 section {
@@ -71,29 +70,42 @@ section {
     transition: 0.5s all;
 }
 
+/* archive */
+
+.archive {
+    display: none;
+}
 
 /*review*/
 .review{
-    padding-top: 5vw;
-    height: 85vh;
+    padding-top: 15vh;
+    margin: 0 5vw;
     display: flex;
 }
 
 .left {
+    position: static;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
 }
 
 .left button {
     justify-content: center;
-    width: 5vw;
-    height: 5vw;
+    width: 120px;
+    height: 120px;
     padding: 0;
+    margin-bottom: 5vh;
     border-radius: 50%;
     border-color: #525B56;
     border-width: 0.4vw;
+    box-shadow: 0.3vw 0.3vw 0.1vw #525B56;
     background-color: transparent;
+    filter: grayscale(100);
+}
+
+.left button:hover {
+    filter: grayscale(0);
+    transition: 0.5s all;
 }
 
 .small_img {
@@ -102,6 +114,37 @@ section {
     border-radius: 50%;
     background-position: center;
     background-size: cover;
+}
+
+.right {
+    margin: 0 10vw;
+}
+
+.right .name {
+    display: flex;
+    margin: 1vh 2vw;
+}
+
+.big_img {
+    width: 25vw;
+    height: 25vw;
+    border-radius: 5vw;
+    background-position: center;
+    box-shadow: 0.5vw 0.5vw 0.1vw #525B56;
+    background-size: cover;
+}
+
+.right .word {
+    margin-left: 4vw;   
+}
+
+.right h1 {
+    font-size: 6vw;
+}
+
+.right p {
+    margin: 3vh 1vw;
+    font-size: 2vw;
 }
 
 #espresso {
@@ -150,7 +193,6 @@ footer {
 }
 
 .contact {
-    
     margin: 0 2vw;
     margin-bottom: 2vw;
     border: 0.1vw solid black;
@@ -197,6 +239,8 @@ footer {
 
 .footer .share a:hover{
     background-color: var(--main-color);
+    box-shadow: 0.2vw 0.2vw 0.1vw #525B56;
+    transition: 0.5s all;
 }
 
 .footer .links{
@@ -218,6 +262,8 @@ footer {
 
 .footer .links a:hover{
     background: #A4978E;
+    box-shadow: 0.2vw 0.2vw 0.1vw #525B56;
+    transition: 0.5s all;
 }
 
 .footer .credit{

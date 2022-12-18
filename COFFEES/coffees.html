@@ -13,7 +13,7 @@
     <link rel="manifest" href="./favicon_io/manifest.webmanifest">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"> -->
     <link rel="stylesheet" href="css/style.css">
-    <title>Feedback</title>
+    <title>Coffees</title>
 </head>
 <body>
     <header>
@@ -30,11 +30,13 @@
     <!--review section-->
     <section class="review" id="review">
         <div class="left">
-            <button><div class="small_img" id="espresso"></div></button>
-            <button><div class="small_img" id="cappuccino"></div></button>
-            <button><div class="small_img" id="latte"></div></button>
-            <button><div class="small_img" id="coretto"></div></button>
-            <button><div class="small_img" id="mocha"></div></button>
+            <button onclick="Espresso()"><div class="small_img" id="espresso"></div></button>
+            <button onclick="Cappuccino()"><div class="small_img" id="cappuccino"></div></button>
+            <button onclick="Latte()"><div class="small_img" id="latte"></div></button>
+            <button onclick="Coretto()"><div class="small_img" id="coretto"></div></button>
+            <button onclick="Mocha()"><div class="small_img" id="mocha"></div></button>
+        </div>
+        <div class="right" id="right">
         </div>
     </section>
     <!--review section-->
@@ -75,5 +77,94 @@
     <div class="prava">
         <p>All rights reserved © Beka Bratan</p>
     </div>
+
+    <div class="archive">
+        <div id="espresso_div">
+            <div class="name">
+                <div class="big_img" id="espresso"></div>
+                <div class="word">
+                    <h1>Espresso</h1>
+                    <p>cost: 50$ <br> you can just love it</p>
+                </div>
+            </div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur non minus ea ab corrupti sapiente quidem, fugit deleniti quam nobis, neque iusto excepturi ratione alias fugiat vero tempora. Vero recusandae perspiciatis cupiditate quis sit quod, quisquam quidem tempora. Atque dolores non quam sint dicta reprehenderit accusantium possimus magnam mollitia sed voluptatem ratione earum dolorum cum minima officia consectetur rem nam, alias suscipit! Cum cumque, quidem officiis corporis beatae adipisci recusandae similique fugiat. Tempore aliquid deserunt non ipsam laboriosam ex blanditiis doloribus consequuntur unde veniam! Doloribus deleniti adipisci officiis ea, odit eligendi ipsam enim nam obcaecati voluptatum repellat incidunt quos eius.</p>    
+        </div>
+
+        <div id="cappuccino_div">
+            <div class="name">
+                <div class="big_img" id="cappuccino"></div>
+                <div class="word">
+                    <h1>Cappuccino</h1>
+                    <p>cost: 50$ <br> you can just love it</p>
+                </div>
+            </div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur non minus ea ab corrupti sapiente quidem, fugit deleniti quam nobis, neque iusto excepturi ratione alias fugiat vero tempora. Vero recusandae perspiciatis cupiditate quis sit quod, quisquam quidem tempora. Atque dolores non quam sint dicta reprehenderit accusantium possimus magnam mollitia sed voluptatem ratione earum dolorum cum minima officia consectetur rem nam, alias suscipit! Cum cumque, quidem officiis corporis beatae adipisci recusandae similique fugiat. Tempore aliquid deserunt non ipsam laboriosam ex blanditiis doloribus consequuntur unde veniam! Doloribus deleniti adipisci officiis ea, odit eligendi ipsam enim nam obcaecati voluptatum repellat incidunt quos eius.</p>    
+        </div>
+        <div id="latte_div">
+            <div class="name">
+                <div class="big_img" id="latte"></div>
+                <div class="word">
+                    <h1>Latte</h1>
+                    <p>cost: 50$ <br> you can just love it</p>
+                </div>
+            </div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur non minus ea ab corrupti sapiente quidem, fugit deleniti quam nobis, neque iusto excepturi ratione alias fugiat vero tempora. Vero recusandae perspiciatis cupiditate quis sit quod, quisquam quidem tempora. Atque dolores non quam sint dicta reprehenderit accusantium possimus magnam mollitia sed voluptatem ratione earum dolorum cum minima officia consectetur rem nam, alias suscipit! Cum cumque, quidem officiis corporis beatae adipisci recusandae similique fugiat. Tempore aliquid deserunt non ipsam laboriosam ex blanditiis doloribus consequuntur unde veniam! Doloribus deleniti adipisci officiis ea, odit eligendi ipsam enim nam obcaecati voluptatum repellat incidunt quos eius.</p>    
+        </div>
+        <div id="coretto_div">
+            <div class="name">
+                <div class="big_img" id="coretto"></div>
+                <div class="word">
+                    <h1>Coretto</h1>
+                    <p>cost: 50$ <br> you can just love it</p>
+                </div>
+            </div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur non minus ea ab corrupti sapiente quidem, fugit deleniti quam nobis, neque iusto excepturi ratione alias fugiat vero tempora. Vero recusandae perspiciatis cupiditate quis sit quod, quisquam quidem tempora. Atque dolores non quam sint dicta reprehenderit accusantium possimus magnam mollitia sed voluptatem ratione earum dolorum cum minima officia consectetur rem nam, alias suscipit! Cum cumque, quidem officiis corporis beatae adipisci recusandae similique fugiat. Tempore aliquid deserunt non ipsam laboriosam ex blanditiis doloribus consequuntur unde veniam! Doloribus deleniti adipisci officiis ea, odit eligendi ipsam enim nam obcaecati voluptatum repellat incidunt quos eius.</p>    
+        </div>
+        <div id="mocha_div">
+            <div class="name">
+                <div class="big_img" id="mocha"></div>
+                <div class="word">
+                    <h1>Mocha</h1>
+                    <p>cost: 50$ <br> you can just love it</p>
+                </div>
+            </div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur non minus ea ab corrupti sapiente quidem, fugit deleniti quam nobis, neque iusto excepturi ratione alias fugiat vero tempora. Vero recusandae perspiciatis cupiditate quis sit quod, quisquam quidem tempora. Atque dolores non quam sint dicta reprehenderit accusantium possimus magnam mollitia sed voluptatem ratione earum dolorum cum minima officia consectetur rem nam, alias suscipit! Cum cumque, quidem officiis corporis beatae adipisci recusandae similique fugiat. Tempore aliquid deserunt non ipsam laboriosam ex blanditiis doloribus consequuntur unde veniam! Doloribus deleniti adipisci officiis ea, odit eligendi ipsam enim nam obcaecati voluptatum repellat incidunt quos eius.</p>    
+        </div>
+    </div>
+    
 </body>
+<script>
+const newEspresso = document.getElementById("espresso_div");
+const newCappuccino = document.getElementById("cappuccino_div");
+const newLatte = document.getElementById("latte_div");
+const newCoretto = document.getElementById("coretto_div");
+const newMocha = document.getElementById("mocha_div");
+
+
+function Espresso() {
+    const right = document.getElementById("right");
+    right.removeChild(right.lastChild);
+    right.appendChild(newEspresso);
+}
+function Cappuccino() {
+    const right = document.getElementById("right");
+    right.removeChild(right.lastChild);
+    right.appendChild(newCappuccino);
+}
+function Latte() {
+    const right = document.getElementById("right");
+    right.removeChild(right.lastChild);
+    right.appendChild(newLatte);
+}
+function Coretto() {
+    const right = document.getElementById("right");
+    right.removeChild(right.lastChild);
+    right.appendChild(newCoretto);
+}
+function Mocha() {
+    const right = document.getElementById("right");
+    right.removeChild(right.lastChild);
+    right.appendChild(newMocha);
+}
+</script>
 </html>
