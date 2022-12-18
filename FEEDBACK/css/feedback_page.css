@@ -11,8 +11,10 @@ header {
     justify-content: space-between;
     z-index: 100;
     position: fixed;
+    padding: 20px 10vw;
     background-color: black;
-    width: 100%;
+    width: 80vw;
+    font-size: 1.2vw;
 }
 
 .logo {
@@ -26,21 +28,21 @@ header {
 .navbar {
     margin-right: 2vw;
     position: relative;
-    color: white;
+    color: #525B56;
     text-decoration: none;
     transition: 0.5s all;
 }
 
 .navbar-desk a:hover {
-    color: yellow;
-    border-bottom: .1rem solid yellow;
+    color: #A4978E;
+    border-bottom: .1rem solid #A4978E;
     padding-bottom: .5rem;
 }
 .content h3{
     margin-left: 18vw;
 }
 .logo {
-    margin-right: 50vw;
+    margin-right: 30vw;
     width: 3vw;
 }
 
@@ -56,7 +58,7 @@ section {
     display: inline-block;
     padding:.9vw 3vw;
     font-size: 1.7vw;
-    color:#fff;
+    color:#525B56;
     background-color: black;
     cursor: pointer;
     text-decoration: none;
@@ -64,7 +66,8 @@ section {
 }
 
 .btn:hover {
-    color: gray;
+    color: #A4978E;
+    transition: 0.5s all;
 }
 .home {
     min-height: 50vw;
@@ -110,12 +113,14 @@ section {
 }
 
 .review .box-container .box:hover {
-    background: gray;
+    background: #A4978E;
     transform: scale(1.05);
+    transition: 0.5s all;
 }
 
 .review .box-container .box:hover  {
     color: black;
+    transition: 0.5s all;
 }
 
 .review .box-container .box p {
@@ -135,11 +140,11 @@ section {
 .review .box-container .box h3 {
     padding: 2vw 0;
     font-size:2vw;
-    color: #fff;
+    color: black;
 }
 
 .review .box-container .box .stars i {
-    color:black;
+    color: black;
     font-size: 1.5rem;
 }
 .heading{
@@ -245,7 +250,7 @@ footer {
 }
 
 .footer .links a:hover{
-    background: red;
+    background: #A4978E;
 }
 
 .footer .credit{
@@ -261,4 +266,18 @@ footer {
 }
 .top{
     display: flex;
+}
+
+@media (max-width: 800px) {
+    .logo {
+        width: 6vw;
+    }
+
+    .navbar-desk {
+        margin-left: 20.5vw;
+    }
+
+    .navbar-desk a {
+        font-size: 2vw;
+    }
 }
