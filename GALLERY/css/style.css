@@ -1,0 +1,283 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Code Pro', monospace;
+    background-color: #BE9063;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+    position: fixed;
+    padding: 20px 10vw;
+    background-color: black;
+    width: 80vw;
+    font-size: 1.2vw;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.navbar-desk {
+    background-color: black;
+}
+
+.navbar {
+    margin-right: 2vw;
+    position: relative;
+    color: #525B56;
+    text-decoration: none;
+    transition: 0.5s all;
+}
+
+.navbar-desk a:hover {
+    color: #A4978E;
+    border-bottom: .1rem solid #A4978E;
+    padding-bottom: .5rem;
+}
+.content h3{
+    margin-left: 18vw;
+}
+.logo {
+    margin-right: 30vw;
+    width: 3vw;
+}
+
+section {
+    padding:2vw 1vw;
+}
+.align{
+    margin-left: 20vw;
+}
+.btn {
+    margin-left: 20vw;
+    margin-top: 1vw;
+    display: inline-block;
+    padding:.9vw 3vw;
+    font-size: 1.7vw;
+    color:#525B56;
+    background-color: black;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 0.5vw;
+}
+
+.btn:hover {
+    color: #A4978E;
+    transition: 0.5s all;
+}
+.home {
+    min-height: 50vw;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .content {
+    align-items: center;
+    max-width: 60vw;
+}
+
+.home .content h3 {
+    color: black;
+    font-size: 6vw;
+    text-transform: uppercase;
+    
+}
+
+.home .content p {
+    font-size: 2vw;
+    font-weight: lighter;
+    line-height: 2vw;
+    padding:1vw 0;
+    color:black ;
+}
+
+
+/*review*/
+.review .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30vw, 1fr));
+    gap: 1.5vw;
+}
+
+.review .box-container .box {
+    border: 0.3vw solid black;
+    text-align: center;
+    padding: 3vw 2vw;
+    border-radius: 1vw; 
+}
+
+.review .box-container .box:hover {
+    background: #A4978E;
+    transform: scale(1.05);
+    transition: 0.5s all;
+}
+
+.review .box-container .box:hover  {
+    color: black;
+    transition: 0.5s all;
+}
+
+.review .box-container .box p {
+    font-size: 1.2vw;
+    line-height: 2vw;
+    color: black;
+    padding: 2vw 0;
+}
+
+.review .box-container .box .user {
+    height: 8vw;
+    width: 8vw;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.review .box-container .box h3 {
+    padding: 2vw 0;
+    font-size:2vw;
+    color: black;
+}
+
+.review .box-container .box .stars i {
+    color: black;
+    font-size: 1.5rem;
+}
+.heading{
+    font-size: 5vw;
+    margin-left: 25vw;
+}
+
+
+
+footer {
+    border-bottom: 0.2vw black solid;
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.creator p {
+    margin-bottom: 14vw;
+    line-height: 2vw;
+    font-size: 1.5vw;
+}
+
+.prava {
+    text-align: center;
+}
+
+.write {
+    display: flex;
+    align-items: center;
+    
+}
+.tg {
+    width: 5vw;
+}
+
+.contact {
+    
+    margin-left: 5vw;
+    margin-bottom: 2vw;
+    border: 0.1vw solid black;
+    background-color: black;
+    border-radius: 2vw;
+    display: flex;
+    padding: 1.5vw 3vw 1.5vw 1vw;
+    width: 15vw;
+    align-items: center;
+}
+.contact a {
+    font-size: 1.2vw;
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    border-bottom: 0.2vw black solid;
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.creator p {
+    margin-bottom: 14vw;
+    line-height: 2vw;
+    font-size: 1.5vw;
+}
+
+.prava {
+    text-align: center;
+}
+
+/*footer section*/
+.footer{
+    text-align: center;
+}
+
+.footer .share{
+    padding: 1vw 0;
+}
+
+.footer .share a:hover{
+    background-color: var(--main-color);
+}
+
+.footer .links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:2vw 0;
+    gap:1vw;
+}
+
+.footer .links a{
+    border: 0.2vw black solid;
+    text-decoration: none;
+    padding:.7vw 2vw;
+    color:black;
+    font-size: 2vw;
+    border-radius: 1vw;
+}
+
+.footer .links a:hover{
+    background: red;
+}
+
+.footer .credit{
+    font-size: 2vw;
+    color: black;
+    font-weight: lighter;
+    padding:1.5vw;
+}
+
+.footer .credit span{
+    color: black;
+    font-weight: bold;
+}
+.top{
+    display: flex;
+}
+
+@media (max-width: 800px) {
+    .logo {
+        width: 6vw;
+    }
+
+    .navbar-desk {
+        margin-left: 20.5vw;
+    }
+
+    .navbar-desk a {
+        font-size: 2vw;
+    }
+}
