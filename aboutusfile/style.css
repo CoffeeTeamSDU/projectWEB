@@ -5,7 +5,7 @@ body{
     
 }
 .main{
-    width: 1024px;
+    width: 74.96339677891655vw;
     margin-left: auto;
     margin-right: auto;
 }
@@ -15,7 +15,7 @@ body{
     display: flex;
    
     color: #A4978E;
-    margin-top: 100px;
+    margin-top: 7.320644216691069vw;
 }
 .left1,
 .right1,
@@ -23,7 +23,7 @@ body{
 .right2,
 .left3,
 .right3{
-    width: 512px;
+    width: 37.48169838945827vw;
     text-align: center;
     line-height: 3vw;
 }
@@ -54,4 +54,10 @@ p{
 #p4{
     padding-bottom: 2vw;
     padding-left: 20vw;
+}
+text{
+    opacity: 0;
+}
+#img, #topic{
+    position: relative;
 }
