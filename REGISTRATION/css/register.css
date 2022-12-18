@@ -16,9 +16,9 @@ header {
 }
 
 .box {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: #132226;
     border-radius: 10px;
-    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 15px 25px #132226;
     margin: auto auto;
     padding: 40px;
     position: absolute;
@@ -53,7 +53,7 @@ header {
 
 .box input[type="submit"], .box button[type="submit"], a.button {
     font-family: sans-serif;
-    background: #03a9f4;
+    background: #be9063;
     font-size: 11px;
     border: none;
     border-radius: 5px;

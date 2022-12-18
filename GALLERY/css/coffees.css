@@ -4,20 +4,63 @@
     box-sizing: border-box;
 }
 
+header {
+    box-sizing: content-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+    position: fixed;
+    padding: 20px 10vw;
+    background-color: black;
+    width: 80vw;
+    font-size: 1.2vw;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.navbar-desk {
+    background-color: black;
+}
+
+.navbar {
+    margin-right: 2vw;
+    position: relative;
+    color: #525B56;
+    text-decoration: none;
+    transition: 0.5s all;
+}
+
+.navbar-desk a:hover {
+    color: #A4978E;
+    border-bottom: .1rem solid #A4978E;
+    padding-bottom: .5rem;
+}
+.content h3{
+    margin-left: 18vw;
+}
+.logo {
+    margin-right: 30vw;
+    width: 3vw;
+}
+
+
 body {
     line-height: 1.5;
-    background-color: #E0E5EC;
+    background-color:#BE9063;
 }
 
 .menu-subtitle {
     text-transform: uppercase;
     font-family: SpartanLimport;
-    color: white;
+    color: #BE9063;
     font-size: 40px;
 }
 
 .menu {
-    background-color: #E0E5EC;
+    background-color: #BE9063;
     display: inline-flex;
     width: 100%;
     z-index: 1;
@@ -25,10 +68,10 @@ body {
 
 .menu-section {
     float: left;
-    background-color: #E0E5EC;
+    background-color:#BE9063;
     width: 25%;
     padding: 2rem;
-    height: 420px;
+    height: 25vw;
     z-index: 2;
 }
 
@@ -47,7 +90,7 @@ body {
     text-align: center;
     transition: transform 0.5s;
     transform-style: preserve-3d;
-    box-shadow: 9px 9px 16px rgb(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5);
+    box-shadow: 9px 9px 16px#BE9063, -9px -9px 16px #BE9063;
     border-radius: 5%;
     background: none;
 }
@@ -107,16 +150,22 @@ body {
     margin-top: 10px;
     margin-bottom: 20px;
     border: 0;
+    
     border-top: 1px solid #eee;
     border-color: black;
 }
 
 .menu-image {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
     width: 100%;
     height: 100%;
-    border-radius: 5%;
 }
-
+.about-text{
+    color: black;
+}
 .menu-circle-image {
     width: 75px;
 }
@@ -143,6 +192,5 @@ body {
     outline: none;
     transition: 0.5s;
     box-shadow: 2px 2px 8px rgb(163, 177, 198, 0.6), -2px -2px 12px rgba(255, 255, 255, 0.5);
-    ;
 }
 
