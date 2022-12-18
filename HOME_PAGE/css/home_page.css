@@ -84,7 +84,9 @@ header {
     width: 45vw;
     height: 25vw;
 }
-
+.text h1{
+    margin-left: 20vw;
+}
 .photo:hover {
     margin: 1vw;
     height: 23vw;
@@ -120,9 +122,7 @@ header {
     height: 45vw;
 }
 
-.it1 {
-    background-image: url("https://thumb.tildacdn.com/tild6430-6338-4561-a136-383434663062/-/format/webp/img3.png");
-}
+
 
 .write {
     display: flex;
@@ -133,8 +133,10 @@ header {
     width: 5vw;
 }
 .contact {
-    margin-top: 2vw;
-    border: 0.1vw solid black;
+    
+    margin-left: 5vw;
+    margin-bottom: 2vw;
+    border: 0.2vw solid black;
     background-color: black;
     border-radius: 2vw;
     display: flex;
@@ -142,22 +144,6 @@ header {
     width: 15vw;
     align-items: center;
 }
-
-.contact4 {
-    margin-top: 2vw;
-    border-radius: 2vw;
-    display: flex;
-    padding: 1.2vw 3vw 1.2vw 1vw;
-    width: 20vw;
-    align-items: center;
-}
-
-.contact4 a {
-    color: black;
-    text-decoration: none;
-    font-size: 1.5vw;
-}
-
 .contact a {
     font-size: 1.2vw;
     color: white;
@@ -181,6 +167,55 @@ footer {
 
 .prava {
     text-align: center;
+}
+
+/*footer section*/
+.footer{
+    text-align: center;
+}
+
+.footer .share{
+    padding: 1vw 0;
+}
+
+.footer .share a:hover{
+    background-color: var(--main-color);
+}
+
+.footer .links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:2vw 0;
+    gap:1vw;
+}
+
+.footer .links a{
+    border: 0.1vw black solid;
+    text-decoration: none;
+    padding:.7vw 2vw;
+    color:black;
+    font-size: 2vw;
+    border-radius: 1vw;
+}
+
+.footer .links a:hover{
+    background: red;
+}
+
+.footer .credit{
+    font-size: 2vw;
+    color: black;
+    font-weight: lighter;
+    padding:1.5vw;
+}
+
+.footer .credit span{
+    color: black;
+    font-weight: bold;
+}
+.top{
+    display: flex;
 }
 
 @media (max-width: 800px) {

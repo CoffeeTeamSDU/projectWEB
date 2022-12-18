@@ -176,8 +176,11 @@ footer {
 .tg {
     width: 5vw;
 }
+
 .contact {
-    margin-top: 2vw;
+    
+    margin-left: 5vw;
+    margin-bottom: 2vw;
     border: 0.1vw solid black;
     background-color: black;
     border-radius: 2vw;
@@ -186,24 +189,76 @@ footer {
     width: 15vw;
     align-items: center;
 }
-
-.contact4 {
-    margin-top: 2vw;
-    border-radius: 2vw;
-    display: flex;
-    padding: 1.2vw 3vw 1.2vw 1vw;
-    width: 20vw;
-    align-items: center;
-}
-
-.contact4 a {
-    color: black;
-    text-decoration: none;
-    font-size: 1.5vw;
-}
-
 .contact a {
     font-size: 1.2vw;
     color: white;
     text-decoration: none;
+}
+
+footer {
+    border-bottom: 0.2vw black solid;
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.creator p {
+    margin-bottom: 14vw;
+    line-height: 2vw;
+    font-size: 1.5vw;
+}
+
+.prava {
+    text-align: center;
+}
+
+/*footer section*/
+.footer{
+    text-align: center;
+}
+
+.footer .share{
+    padding: 1vw 0;
+}
+
+.footer .share a:hover{
+    background-color: var(--main-color);
+}
+
+.footer .links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:2vw 0;
+    gap:1vw;
+}
+
+.footer .links a{
+    border: 0.2vw black solid;
+    text-decoration: none;
+    padding:.7vw 2vw;
+    color:black;
+    font-size: 2vw;
+    border-radius: 1vw;
+}
+
+.footer .links a:hover{
+    background: red;
+}
+
+.footer .credit{
+    font-size: 2vw;
+    color: black;
+    font-weight: lighter;
+    padding:1.5vw;
+}
+
+.footer .credit span{
+    color: black;
+    font-weight: bold;
+}
+.top{
+    display: flex;
 }
