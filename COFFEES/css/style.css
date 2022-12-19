@@ -32,10 +32,7 @@ header {
 .logo {
     cursor: pointer;
     height: 100%;
-}
-.logo {
-    margin-right: 30vw;
-    width: 3vw;
+    width: fit-content;
 }
 
 .navbar-desk {
@@ -200,14 +197,6 @@ section {
 }
 
 /* footer */
-footer {
-    border-bottom: 0.2vw black solid;
-    width: 80vw;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 .creator p {
     margin-bottom: 14vw;
@@ -248,10 +237,7 @@ footer {
 footer {
     border-bottom: 0.2vw black solid;
     width: 80vw;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: 0 10vw;
 }
 
 .creator p {
@@ -265,7 +251,7 @@ footer {
 }
 
 /*footer section*/
-.footer{
+.footer {
     text-align: center;
 }
 
@@ -281,7 +267,8 @@ footer {
 
 .footer .links{
     display: flex;
-    justify-content: center;
+    margin: 0 10vw;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     padding:2vw 0;
     gap:2vw;
@@ -338,5 +325,22 @@ footer {
     }
     .right p {
         font-size: 4vw;
+    }
+    .footer .links {
+        flex-direction: column;
+        margin: 0 10vw;
+    }
+    .footer .links a {
+        font-size: 3vh;
+    }
+    .top {
+        flex-direction: column;
+    }
+    .contact {
+        width: 73vw;
+        margin: 1vh 0;
+    }
+    .contact a {
+        font-size: 3vh;
     }
 }
