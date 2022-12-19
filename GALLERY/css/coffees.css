@@ -240,4 +240,7 @@ body {
     .logo {
         margin-right: 45vw;
     }
+    .menu-text{
+        font-size: 1vw;
+    }
 }
