@@ -421,4 +421,7 @@ footer {
     .contact a {
         font-size: 3vh;
     }
+    .menu-text{
+        font-size: 1vw;
+    }
 }
