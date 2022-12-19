@@ -35,10 +35,6 @@ header {
 .logo {
     cursor: pointer;
     height: 100%;
-<<<<<<< HEAD
-=======
-    width: fit-content;
->>>>>>> 2c196108658bb836b96a0b29bae021a56a18806b
 }
 
 .navbar-desk {
@@ -256,6 +252,19 @@ footer {
 
 .prava {
     text-align: center;
+}
+.order {
+    text-decoration: none;
+    color: white;
+    border: 0.1vw solid black;
+    padding: 1.5vw 4.5vw;
+    font-size: 1.5vw;
+    background-color: black;
+    border-radius: 2vw;
+}
+
+.ordering {
+    margin-top: 4.8vw;
 }
 
 /*footer section*/
