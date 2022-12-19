@@ -6,50 +6,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script> 
+        $(document).ready(function(){
+          $("#flip").click(function(){
+            $("#panel").slideToggle("slow");
+          });
+        });
+    </script>
 </head>
 <body onload="load()">
-    <div class="main">
+    <header>
+        <div class="header">
+            <div class="buttons">
+                <img src="https://www.logodesignlove.com/wp-content/uploads/2022/01/logo-wave-symbol-01.jpg" alt="nope" class="logo"
+                onclick="window.location.reload()">
+            <div class="navbar-desk">
+                <a href="#" onclick="change(this)" class="navbar" id="homee">Home</a>
+                <a href="#" onclick="change(this)" class="navbar" id="aboutus">About us</a>
+                <a href="#" onclick="change(this)" class="navbar" id="gallery">Gallery</a>
+                <a href="#" onclick="change(this)" class="navbar" id="coffees">Coffees</a>
+                <a href="#" onclick="change(this)" class="navbar" id="register">Register</a>
+            </div>
+            <div id="flip"><img src="icons8-menu-256.png" alt=""></div>
+            </div>
+        </div>
+        <div id="panel">
+            <div class="navbar-mobile">
+                <a href="#" onclick="change(this)" class="navbar" id="homee">Home</a>
+                <a href="#" onclick="change(this)" class="navbar" id="aboutus">About us</a>
+                <a href="#" onclick="change(this)" class="navbar" id="gallery">Gallery</a>
+                <a href="#" onclick="change(this)" class="navbar" id="coffees">Coffees</a>
+                <a href="#" onclick="change(this)" class="navbar" id="register">Register</a>
+            </div>
+        </div>
+    </header>
 
-        <img src="https://i0.wp.com/www.cfcqatar.com/wp-content/uploads/2014/08/about-us2-1.jpg?fit=990%2C250&ssl=1" alt="" width="100%" height="170vw">
+
+
+
+
+    <div class="main">
+        <hr>
+        <img src="https://i0.wp.com/www.cfcqatar.com/wp-content/uploads/2014/08/about-us2-1.jpg?fit=990%2C250&ssl=1" alt="" id="topicimg">
         <hr>
         <div class="first">
             <div class="left1">
-                <h2 onclick="change(this)">Alibek</h2>
-                <img id="img" src="cat_01.jpg" alt="" width="250vw" height="250vw">
+                <h2>Alibek</h2>
+                <img class="img" src="cat_01.jpg" alt="" id="cat_01">
             </div>
             <div class="right1">
-                <p class="text" id="p1">18 years old, a resident of Almaty.</p>
-                <p class="text" id="p2">He knows java language and <br> is learning web programming.</p>
-                <p class="text" id="p3">In his spare time he likes to program <br> and play soccer and read books.</p>
-                <p class="text" id="p4">In this project worked on the <br> beginning and end of the site.</p> 
+                <p class="p1">18 years old, a resident of Almaty.</p>
+                <p class="p2">He knows java language and <br> is learning web programming.</p>
+                <p class="p3">In his spare time he likes to program <br> and play soccer and read books.</p>
+                <p class="p4">In this project worked on the <br> beginning and end of the site.</p> 
             </div>
         </div>
-        <hr>
+        <hr style="color: black;">
         <div class="sekond">
             <div class="left2">
                 <h2>Bekarys</h2>
-                <img src="cat1.jpg" alt="" width="250vw" height="250vw">
+                <img class="img" src="cat1.jpg" alt="" id="cat2">
             </div>
             <div class="right2">
-                <p class="text" id="p1">18 years old, a resident of Almaty.</p>
-                <p class="text" id="p2">He knows java language and <br> studies web-programming. </p>
-                <p class="text" id="p3">If we talk about the character: <br> A calm person and purposeful.</p>
-                <p class="text" id="p4">Good knowledge of backend <br> and frontend.</p>
-                <p class="text" id="p5">In this project worked with <br> databases and  extracted <br> information about coffee.</p>                
+                <p class="p1">18 years old, a resident of Almaty.</p>
+                <p class="p2">He knows java language and <br> studies web-programming. </p>
+                <p class="p3">If we talk about the character: <br> A calm person and purposeful.</p>
+                <p class="p4">Good knowledge of backend <br> and frontend.</p>
+                <p class="p5">In this project worked with <br> databases and  extracted <br> information about coffee.</p>                
             </div>
         </div>
         <hr>
         <div class="third">
             <div class="left3">
-                <h2 onclick="change(this)">Daniyar</h2>
-                <img id="img" src="cat2.jpg" alt="" width="250vw" height="250vw">
+                <h2>Daniyar</h2>
+                <img class="img" src="cat2.jpg" alt="" id="cat1">
             </div>
             <div class="text">
-                <p class="text" id="p1">18 years old, a resident of Almaty.</p>
-                <p class="text" id="p2">Knows java language, studies web-programming.</p>
-                <p class="text" id="p3">Quickly finds errors in the project, <br> and likes to work on the site design. </p>
-                <p class="text" id="p4">Made the main page of this site.</p>
+                <p class="p1">18 years old, a resident of Almaty.</p>
+                <p class="p2">Knows java language, studies web-programming.</p>
+                <p class="p3">Quickly finds errors in the project, <br> and likes to work on the site design. </p>
+                <p class="p4">Made the main page of this site.</p>
             </div>
         </div>
         <hr>
