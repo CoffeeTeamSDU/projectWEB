@@ -17,7 +17,7 @@ if ($error) {
 
 $card_name = $_POST['card_name'];
 
-$sql = "select * from clients where name like '$card_name'";
+$sql = "select * from orders where card_name like '$card_name'";
 
 $result = $conn->query($sql);
 
@@ -52,8 +52,8 @@ switch ($coffee) {
     break;
 }
 
-$sql1 = "INSERT INTO `orders` (`card_name`, `card_number`, `month`, `address`, `coffee`, `year`, `cvv`) 
-VALUES ('$card_name', '$card_number', '$month', `$address`, '$coffee', '$year', '$cvv')";
+$sql1 = "INSERT INTO `orders` (`card_name`, `card_number`, `month`, `address`, `coffee`, `price`, `year`, `cvv`) 
+VALUES ('$card_name', '$card_number', '$month', '$address', '$coffee', '$price', '$year', '$cvv')";
 $conn->query($sql1);
 echo "User is registered succesfully";
 ?>
