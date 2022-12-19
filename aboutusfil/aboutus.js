@@ -15,6 +15,23 @@ function change(element){
 
 }
 
-            function load(){
-                $(".img").animate({opacity: '1'}, "slow")
-            }
+function load(){
+        $(".img").animate({opacity: '1'}, "slow")
+}
+
+window.addEventListener('scroll', handleScroll);
+function handleScroll() {
+    var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;  
+    var scrolled = (winScroll / height) * 100;
+
+    document.getElementById("progressBar").style.width = scrolled + "%";
+}
+
+var elem = document.getElementById("btnback");
+      btnback.onclick = function myFunction() {
+        if(document.body.style.backgroundColor) document.body.style.backgroundColor = "";
+        
+        else
+           document.body.style.backgroundColor = "#fff";     
+      }
