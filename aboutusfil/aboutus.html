@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script> 
+        $(document).ready(function(){
+          $("#flip").click(function(){
+            $("#panel").slideToggle("slow");
+          });
+        });
+    </script>
+</head>
+<body onload="load()">
+    <header>
+        <div class="header">
+            <div class="buttons">
+                <img src="https://www.logodesignlove.com/wp-content/uploads/2022/01/logo-wave-symbol-01.jpg" alt="nope" class="logo"
+                onclick="window.location.reload()">
+            <div class="navbar-desk">
+                <a href="#" onclick="change(this)" class="navbar" id="homee">Home</a>
+                <a href="#" onclick="change(this)" class="navbar" id="aboutus">About us</a>
+                <a href="#" onclick="change(this)" class="navbar" id="gallery">Gallery</a>
+                <a href="#" onclick="change(this)" class="navbar" id="coffees">Coffees</a>
+                <a href="#" onclick="change(this)" class="navbar" id="register">Register</a>
+            </div>
+            <div id="flip"><img src="icons8-menu-256.png" alt=""></div>
+            </div>
+        </div>
+        <div id="panel">
+            <div class="navbar-mobile">
+                <a href="#" onclick="change(this)" class="navbar" id="homee">Home</a>
+                <a href="#" onclick="change(this)" class="navbar" id="aboutus">About us</a>
+                <a href="#" onclick="change(this)" class="navbar" id="gallery">Gallery</a>
+                <a href="#" onclick="change(this)" class="navbar" id="coffees">Coffees</a>
+                <a href="#" onclick="change(this)" class="navbar" id="register">Register</a>
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+    <div class="main">
+        <hr>
+        <img src="https://i0.wp.com/www.cfcqatar.com/wp-content/uploads/2014/08/about-us2-1.jpg?fit=990%2C250&ssl=1" alt="" id="topicimg">
+        <hr>
+        <div class="first">
+            <div class="left1">
+                <h2>Alibek</h2>
+                <img class="img" src="cat_01.jpg" alt="" id="cat_01">
+            </div>
+            <div class="right1">
+                <p class="p1">18 years old, a resident of Almaty.</p>
+                <p class="p2">He knows java language and <br> is learning web programming.</p>
+                <p class="p3">In his spare time he likes to program <br> and play soccer and read books.</p>
+                <p class="p4">In this project worked on the <br> beginning and end of the site.</p> 
+            </div>
+        </div>
+        <hr style="color: black;">
+        <div class="sekond">
+            <div class="left2">
+                <h2>Bekarys</h2>
+                <img class="img" src="cat1.jpg" alt="" id="cat2">
+            </div>
+            <div class="right2">
+                <p class="p1">18 years old, a resident of Karaganda.</p>
+                <p class="p2">He knows java language and <br> studies web-programming. </p>
+                <p class="p3">If we talk about the character: <br> A calm person and purposeful.</p>
+                <p class="p4">Good knowledge of backend <br> and frontend.</p>
+                <p class="p5">In this project worked with <br> databases and  extracted <br> information about coffee.</p>                
+            </div>
+        </div>
+        <hr>
+        <div class="third">
+            <div class="left3">
+                <h2>Daniyar</h2>
+                <img class="img" src="cat2.jpg" alt="" id="cat1">
+            </div>
+            <div class="text">
+                <p class="p1">18 years old, a resident of Ekpindi.</p>
+                <p class="p2">Knows java language, studies web-programming.</p>
+                <p class="p3">Quickly finds errors in the project, <br> and likes to work on the site design. </p>
+                <p class="p4">Made the main page of this site.</p>
+            </div>
+        </div>
+        <hr>
+    </div>
+
+
+    <div class="t396__elem tn-elem tn-elem__3912154511638302813812 t-sbs-anim_started" data-elem-id="1638302813812" data-elem-type="shape" data-field-top-value="0" data-field-top-res-960-value="0" data-field-left-value="20" data-field-left-res-960-value="10" data-field-height-value="1" data-field-width-value="1160" data-field-width-res-960-value="940" data-field-width-res-640-value="620" data-field-width-res-480-value="460" data-field-width-res-320-value="300" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px" data-field-widthunits-value="px" data-animate-mobile="y" data-animate-sbs-event="intoview" data-animate-sbs-trg="1" data-animate-sbs-trgofst="0" data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':0,'mx':'0','my':'0','sx':0,'sy':1,'op':0,'ro':'0','bl':'0','ea':'easeOut','dt':'0'},{'ti':0,'mx':'0','my':'0','sx':0,'sy':1,'op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':1000,'mx':'0','my':'0','sx':1,'sy':1,'op':'1','ro':'0','bl':'0','ea':'easeOut','dt':'0'}]" data-fields="width,height,top,left,container,axisx,axisy,widthunits,heightunits,leftunits,topunits" style="width: 300px; left: 10px; top: 0px; height: 1px; zoom: 1;">  <div class="tn-atom__sbs-anim-wrapper" style="display: table; width: inherit; height: inherit; opacity: 0;"><div class="tn-atom" style="transform-origin: center center;"> </div></div></div>
+    <div class="tn-atom__sbs-anim-wrapper" style="display: table; width: inherit; height: inherit; opacity: 0;"><div class="tn-atom" style="transform-origin: center center;"> </div></div>
+    <div class="t396__elem tn-elem tn-elem__3912154511638302813812 t-sbs-anim_started" data-elem-id="1638302813812" data-elem-type="shape" data-field-top-value="0" data-field-top-res-960-value="0" data-field-left-value="20" data-field-left-res-960-value="10" data-field-height-value="1" data-field-width-value="1160" data-field-width-res-960-value="940" data-field-width-res-640-value="620" data-field-width-res-480-value="460" data-field-width-res-320-value="300" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px" data-field-widthunits-value="px" data-animate-mobile="y" data-animate-sbs-event="intoview" data-animate-sbs-trg="1" data-animate-sbs-trgofst="0" data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':0,'mx':'0','my':'0','sx':0,'sy':1,'op':0,'ro':'0','bl':'0','ea':'easeOut','dt':'0'},{'ti':0,'mx':'0','my':'0','sx':0,'sy':1,'op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':1000,'mx':'0','my':'0','sx':1,'sy':1,'op':'1','ro':'0','bl':'0','ea':'easeOut','dt':'0'}]" data-fields="width,height,top,left,container,axisx,axisy,widthunits,heightunits,leftunits,topunits" style="width: 300px; left: 10px; top: 0px; height: 1px; zoom: 1;">  <div class="tn-atom__sbs-anim-wrapper" style="display: table; width: inherit; height: inherit; opacity: 0;"><div class="tn-atom" style="transform-origin: center center;"> </div></div></div>
+    <div class="t396__elem tn-elem tn-elem__3912154511638302813812 t-sbs-anim_started" data-elem-id="1638302813812" data-elem-type="shape" data-field-top-value="0" data-field-top-res-960-value="0" data-field-left-value="20" data-field-left-res-960-value="10" data-field-height-value="1" data-field-width-value="1160" data-field-width-res-960-value="940" data-field-width-res-640-value="620" data-field-width-res-480-value="460" data-field-width-res-320-value="300" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px" data-field-widthunits-value="px" data-animate-mobile="y" data-animate-sbs-event="intoview" data-animate-sbs-trg="1" data-animate-sbs-trgofst="0" data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':0,'mx':'0','my':'0','sx':0,'sy':1,'op':0,'ro':'0','bl':'0','ea':'easeOut','dt':'0'},{'ti':0,'mx':'0','my':'0','sx':0,'sy':1,'op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':1000,'mx':'0','my':'0','sx':1,'sy':1,'op':'1','ro':'0','bl':'0','ea':'easeOut','dt':'0'}]" data-fields="width,height,top,left,container,axisx,axisy,widthunits,heightunits,leftunits,topunits" style="width: 300px; left: 10px; top: 0px; height: 1px; zoom: 1;">  <div class="tn-atom__sbs-anim-wrapper" style="display: table; width: inherit; height: inherit; opacity: 0;"><div class="tn-atom" style="transform-origin: center center;"> </div></div></div>
+    
+    <script type="text/javascript" src="aboutus.js"></script>
+</body>
+</html>
