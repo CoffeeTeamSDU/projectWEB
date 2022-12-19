@@ -8,6 +8,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <script>
+        const sub2 = document.getElementById("submitting");
+        sub2.onclick = function() {
+    swal({
+        title: "YOU LOGGED", icon: "success", button: "OK"
+    });
+};
+    </script>
 </head>
 <body>
 <div class="container">
@@ -43,7 +51,7 @@
                 </div>
             </div>
         </div>
-        <input type="submit" value="SUBMIT" class="submit-btn">
+        <input type="submit" value="SUBMIT" id="submitting" class="submit-btn">
     </form>
 </div>    
 </body>
