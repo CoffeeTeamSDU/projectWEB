@@ -47,7 +47,6 @@ body{
 }
 
 .container form .row .col .inputBox{
-
   margin:15px 0;
 }
 
@@ -57,6 +56,15 @@ body{
 }
 
 .container form .row .col .inputBox input{
+  border-radius: 3vw;
+  width: 100%;
+  border:1px solid #ccc;
+  padding:10px 15px;
+  font-size: 15px;
+  text-transform: none;
+}
+
+.container form .row .col .inputBox select{
   border-radius: 3vw;
   width: 100%;
   border:1px solid #ccc;
