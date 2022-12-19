@@ -9,10 +9,11 @@
 
 }
 body{
-
+    background-image: url(/ORDER/images/1c4acd47436539.587a66153ef31.gif);
+    background-size: cover;
 }
 .container{
-      color: white;
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
