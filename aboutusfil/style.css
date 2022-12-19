@@ -194,6 +194,10 @@ hr{
     }
    }
 
+#btnback{
+    border-radius: 50vw;
+}
+
 
 @media (max-width: 900px) {
     #flip {

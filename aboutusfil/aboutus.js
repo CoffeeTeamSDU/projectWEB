@@ -27,3 +27,11 @@ function handleScroll() {
 
     document.getElementById("progressBar").style.width = scrolled + "%";
 }
+
+var elem = document.getElementById("btnback");
+      btnback.onclick = function myFunction() {
+        if(document.body.style.backgroundColor) document.body.style.backgroundColor = "";
+        
+        else
+           document.body.style.backgroundColor = "#fff";     
+      }
