@@ -4,7 +4,6 @@ body {
     font-family: 'Source Code Pro', monospace;
     background-color: #BE9063;
 }
-
 header {
     display: flex;
     flex-direction: column;
@@ -14,6 +13,10 @@ header {
     position: fixed;
     background-color: black;
     /* font-size: 1.2vw; */
+}
+
+#flip {
+    cursor: pointer;
 }
 
 .buttons {
@@ -32,7 +35,10 @@ header {
 .logo {
     cursor: pointer;
     height: 100%;
+<<<<<<< HEAD
+=======
     width: fit-content;
+>>>>>>> 2c196108658bb836b96a0b29bae021a56a18806b
 }
 
 .navbar-desk {
@@ -60,9 +66,9 @@ header {
     display: flex;
     flex-direction: column;
 }
+
 #flip img {
     height: 100%;
-    cursor: pointer;
 }
 
 #panel {
@@ -71,12 +77,14 @@ header {
     display: flex;
     flex-direction: column;
 }
-#panel, #flip {
+
+#panel,
+#flip {
     background-color: black;
     display: none;
 }
 
-.content h3{
+.content h3 {
     margin-left: 18vw;
 }
 
