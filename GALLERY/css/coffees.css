@@ -97,8 +97,8 @@ body {
 }
 
 .menu-section {
-    border-bottom: 0.5vw solid black;
-     border-top: 0.5vw solid black;
+    /* border-bottom: 0.5vw solid black;
+     border-top: 0.5vw solid black; */
     border-radius: 2vw;
     float: left;
     background-color:#BE9063;
@@ -379,6 +379,15 @@ footer {
     }
 }
 @media (max-width: 900px) {
+    .itemm {
+            flex-direction: column;
+        }
+        .menu-section {
+            background-color: #BE9063;
+            width: 50%;
+            height: 45vw;
+        }
+
     #flip {
         display: flex;
     }
@@ -412,7 +421,12 @@ footer {
     .top {
         flex-direction: column;
     }
-
+        .about-text {
+            font-size: 2vw;
+        }
+        .menu-text-title{
+            font-size: 3.7vw;
+        }
     .contact {
         width: 75vw;
         margin: 1vh 0;
