@@ -26,7 +26,7 @@ $count = mysqli_num_rows($result);
 $card_number = $_POST['card_number'];
 $month = $_POST['month'];
 $coffee = $_POST['coffee'];
-
+$address = $_POST['address'];
 $year = $_POST['year'];
 $cvv = $_POST['cvv'];
 
@@ -52,8 +52,8 @@ switch ($coffee) {
     break;
 }
 
-$sql1 = "INSERT INTO `orders` (`card_name`, `card_number`, `month`, `coffee`, `year`, `cvv`) 
-VALUES ('$card_name', '$card_number', '$month', '$coffee', '$year', '$cvv')";
+$sql1 = "INSERT INTO `orders` (`card_name`, `card_number`, `month`, `address`, `coffee`, `year`, `cvv`) 
+VALUES ('$card_name', '$card_number', '$month', `$address`, '$coffee', '$year', '$cvv')";
 $conn->query($sql1);
 echo "User is registered succesfully";
 ?>
