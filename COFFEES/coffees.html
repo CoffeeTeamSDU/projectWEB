@@ -14,17 +14,39 @@
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"> -->
     <link rel="stylesheet" href="css/style.css">
     <title>Coffees</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script> 
+        $(document).ready(function(){
+          $("#flip").click(function(){
+            $("#panel").slideToggle("slow");
+          });
+        });
+    </script>
 </head>
 <body>
     <header>
-        <img src="https://www.logodesignlove.com/wp-content/uploads/2022/01/logo-wave-symbol-01.jpg" alt="nope" class="logo"
-            onclick="window.location.reload()">
-        <div class="navbar-desk">
-            <a href="#" class="navbar" id="homee">Home</a>
-            <a href="#" class="navbar" id="aboutus">About us</a>
-            <a href="#" class="navbar" id="gallery">Gallery</a>
-            <a href="#" class="navbar" id="coffees">Coffees</a>
-            <a href="#" class="navbar" id="register">Register</a>
+        <div class="header">
+            <div class="buttons">
+                <img src="https://www.logodesignlove.com/wp-content/uploads/2022/01/logo-wave-symbol-01.jpg" alt="nope" class="logo"
+                onclick="window.location.reload()">
+            <div class="navbar-desk">
+                <a href="#" class="navbar" id="homee">Home</a>
+                <a href="#" class="navbar" id="aboutus">About us</a>
+                <a href="#" class="navbar" id="gallery">Gallery</a>
+                <a href="#" class="navbar" id="coffees">Coffees</a>
+                <a href="#" class="navbar" id="register">Register</a>
+            </div>
+            <div id="flip"><img src="img/icons8-menu-256.png" alt=""></div>
+            </div>
+        </div>
+        <div id="panel">
+            <div class="navbar-mobile">
+                <a href="#" class="navbar" id="homee">Home</a>
+                <a href="#" class="navbar" id="aboutus">About us</a>
+                <a href="#" class="navbar" id="gallery">Gallery</a>
+                <a href="#" class="navbar" id="coffees">Coffees</a>
+                <a href="#" class="navbar" id="register">Register</a>
+            </div>
         </div>
     </header>
     <!--review section-->
@@ -84,7 +106,7 @@
                 <div class="big_img" id="espresso"></div>
                 <div class="word">
                     <h1>Espresso</h1>
-                    <p>cost: 50$ <br> you can just love it</p>
+                    <p>cost: 8$ <br> you can just love it</p>
                 </div>
             </div>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur non minus ea ab corrupti sapiente quidem, fugit deleniti quam nobis, neque iusto excepturi ratione alias fugiat vero tempora. Vero recusandae perspiciatis cupiditate quis sit quod, quisquam quidem tempora. Atque dolores non quam sint dicta reprehenderit accusantium possimus magnam mollitia sed voluptatem ratione earum dolorum cum minima officia consectetur rem nam, alias suscipit! Cum cumque, quidem officiis corporis beatae adipisci recusandae similique fugiat. Tempore aliquid deserunt non ipsam laboriosam ex blanditiis doloribus consequuntur unde veniam! Doloribus deleniti adipisci officiis ea, odit eligendi ipsam enim nam obcaecati voluptatum repellat incidunt quos eius.</p>    
@@ -95,7 +117,7 @@
                 <div class="big_img" id="cappuccino"></div>
                 <div class="word">
                     <h1>Cappuccino</h1>
-                    <p>cost: 50$ <br> you can just love it</p>
+                    <p>cost: 6$ <br> you can just love it</p>
                 </div>
             </div>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur non minus ea ab corrupti sapiente quidem, fugit deleniti quam nobis, neque iusto excepturi ratione alias fugiat vero tempora. Vero recusandae perspiciatis cupiditate quis sit quod, quisquam quidem tempora. Atque dolores non quam sint dicta reprehenderit accusantium possimus magnam mollitia sed voluptatem ratione earum dolorum cum minima officia consectetur rem nam, alias suscipit! Cum cumque, quidem officiis corporis beatae adipisci recusandae similique fugiat. Tempore aliquid deserunt non ipsam laboriosam ex blanditiis doloribus consequuntur unde veniam! Doloribus deleniti adipisci officiis ea, odit eligendi ipsam enim nam obcaecati voluptatum repellat incidunt quos eius.</p>    
@@ -105,17 +127,18 @@
                 <div class="big_img" id="latte"></div>
                 <div class="word">
                     <h1>Latte</h1>
-                    <p>cost: 50$ <br> you can just love it</p>
+                    <p>cost: 5$ <br> you can just love it</p>
                 </div>
             </div>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur non minus ea ab corrupti sapiente quidem, fugit deleniti quam nobis, neque iusto excepturi ratione alias fugiat vero tempora. Vero recusandae perspiciatis cupiditate quis sit quod, quisquam quidem tempora. Atque dolores non quam sint dicta reprehenderit accusantium possimus magnam mollitia sed voluptatem ratione earum dolorum cum minima officia consectetur rem nam, alias suscipit! Cum cumque, quidem officiis corporis beatae adipisci recusandae similique fugiat. Tempore aliquid deserunt non ipsam laboriosam ex blanditiis doloribus consequuntur unde veniam! Doloribus deleniti adipisci officiis ea, odit eligendi ipsam enim nam obcaecati voluptatum repellat incidunt quos eius.</p>    
+            <button>Order Latte 5$</button>
         </div>
         <div id="coretto_div">
             <div class="name">
                 <div class="big_img" id="coretto"></div>
                 <div class="word">
                     <h1>Coretto</h1>
-                    <p>cost: 50$ <br> you can just love it</p>
+                    <p>cost: 6$ <br> you can just love it</p>
                 </div>
             </div>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur non minus ea ab corrupti sapiente quidem, fugit deleniti quam nobis, neque iusto excepturi ratione alias fugiat vero tempora. Vero recusandae perspiciatis cupiditate quis sit quod, quisquam quidem tempora. Atque dolores non quam sint dicta reprehenderit accusantium possimus magnam mollitia sed voluptatem ratione earum dolorum cum minima officia consectetur rem nam, alias suscipit! Cum cumque, quidem officiis corporis beatae adipisci recusandae similique fugiat. Tempore aliquid deserunt non ipsam laboriosam ex blanditiis doloribus consequuntur unde veniam! Doloribus deleniti adipisci officiis ea, odit eligendi ipsam enim nam obcaecati voluptatum repellat incidunt quos eius.</p>    
@@ -125,7 +148,7 @@
                 <div class="big_img" id="mocha"></div>
                 <div class="word">
                     <h1>Mocha</h1>
-                    <p>cost: 50$ <br> you can just love it</p>
+                    <p>cost: 7$ <br> you can just love it</p>
                 </div>
             </div>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur non minus ea ab corrupti sapiente quidem, fugit deleniti quam nobis, neque iusto excepturi ratione alias fugiat vero tempora. Vero recusandae perspiciatis cupiditate quis sit quod, quisquam quidem tempora. Atque dolores non quam sint dicta reprehenderit accusantium possimus magnam mollitia sed voluptatem ratione earum dolorum cum minima officia consectetur rem nam, alias suscipit! Cum cumque, quidem officiis corporis beatae adipisci recusandae similique fugiat. Tempore aliquid deserunt non ipsam laboriosam ex blanditiis doloribus consequuntur unde veniam! Doloribus deleniti adipisci officiis ea, odit eligendi ipsam enim nam obcaecati voluptatum repellat incidunt quos eius.</p>    
