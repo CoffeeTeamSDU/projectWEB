@@ -9,6 +9,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="css/feedback_page.css">
     <title>Feedback</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#flip").click(function () {
+                $("#panel").slideToggle("slow");
+            });
+        });
+    </script>
 </head>
 <body>
     <header>
@@ -28,7 +36,6 @@
         <div class="content">
             <h3>COFFEE</h3>
             <p>Drinking a cup of coffee every morning is a habit for me.Drinking a cup of tea or coffee every morning is probably the habit of many people.</p>
-            <a href="#" class="btn">get yours now</a>
         </div>
     </section>
     </div>
@@ -120,11 +127,12 @@
     <!--review section-->
     <section class="footer">
         <div class="links">
-            <a href="#homee">home</a>
-            <a href="#aboutus">about</a>
-            <a href="#gallery">Gallery</a>
-            <a href="#coffees">Coffees</a>
-            <a href="#register">Register</a>
+            <a href="/HOME_PAGE/home_page.html">home</a>
+            <a href="/aboutusfil/aboutus.html">about</a>
+            <a href="/GALLERY/coffees.html">Gallery</a>
+            <a href="/COFFEES/coffees.html">Coffees</a>
+            <a href="/REGISTRATION/login.html">order</a>
+            <a href="/FEEDBACK/feedback_page.html">FeedBack</a>
         </div>
         <footer>
             <div class="top">
