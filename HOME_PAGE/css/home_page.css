@@ -4,35 +4,47 @@ body {
     font-family: 'Source Code Pro', monospace;
     background-color: #BE9063;
 }
-
 header {
-    z-index: 100;
+    box-sizing: content-box;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    z-index: 100;
     position: fixed;
+    padding: 20px 10vw;
     background-color: black;
-    width: 100%;
+    width: 80vw;
+    font-size: 1.2vw;
 }
-.logo{
+
+.logo {
     cursor: pointer;
 }
+
 .navbar-desk {
     background-color: black;
 }
 
-.navbar{
+.navbar {
     margin-right: 2vw;
-    color: white;
+    position: relative;
+    color: #525B56;
     text-decoration: none;
-    transition: 0.5s all ;
+    transition: 0.5s all;
 }
-.navbar-desk a:hover{
-    border-bottom: .1rem solid yellow;
-    padding-bottom: .5rem;  
-    color: yellow;
+
+.navbar-desk a:hover {
+    color: #A4978E;
+    border-bottom: .1rem solid #A4978E;
+    padding-bottom: .5rem;
 }
+
+.content h3 {
+    margin-left: 18vw;
+}
+
 .logo {
-    margin-right: 60vw;
+    margin-right: 30vw;
     width: 3vw;
 }
 
