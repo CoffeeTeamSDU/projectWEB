@@ -33,6 +33,10 @@ header {
     cursor: pointer;
     height: 100%;
 }
+.logo {
+    margin-right: 30vw;
+    width: 3vw;
+}
 
 .navbar-desk {
     background-color: black;

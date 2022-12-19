@@ -334,12 +334,4 @@ footer {
     .logo {
         margin-right: 45vw;
     }
-    
-    /* only for cofsees */
-    .right .word p {
-        font-size: 2vw;
-    }
-    .right p {
-        font-size: 4vw;
-    }
 }
