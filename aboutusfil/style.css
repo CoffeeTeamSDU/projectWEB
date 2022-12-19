@@ -3,7 +3,7 @@ body{
     padding: 0;
     background-color: #BE9063;
     cursor: pointer;
-    
+    font-family: 'Source Code Pro', monospace;
 }
 
 
@@ -82,10 +82,10 @@ header {
 
 
 .main{
-    width: 74.96339677891655vw;
+    width: 87vw;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 6vw;
+    padding-top: 1vw;
 }
 
 
@@ -94,8 +94,6 @@ header {
 .sekond,
 .third{
     display: flex;
-   
-    color: #A4978E;
     margin-top: 1.320644216691069vw;
 }
 .left1,
@@ -106,7 +104,7 @@ header {
 .right3{
     width: 37.48169838945827vw;
     text-align: center;
-    line-height: 1.4vw;
+    line-height: 1.9vw;
 }
 .right1,
 .right2,
@@ -132,8 +130,9 @@ h2{
 }
 p{
     font-family: 'Source Code Pro', monospace;
-    font-size: 0.84vw;
+    font-size: 1.6vw;
     color: black;
+    width: 25vw;
 }
 hr{
     color: #000;
@@ -142,7 +141,7 @@ hr{
 .p3,
 .p5{
     padding-bottom: 2vw;
-    padding-right: 20vw;
+    padding-right: 22vw;
 }
 .p2,
 .p4{
@@ -152,19 +151,9 @@ hr{
 .img{
     opacity: 0;
 }
-.img, .p1, .p2, .p3, .p4, .p5{
+.p1, .p2, .p3, .p4, .p5{
     position: relative;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -202,7 +191,7 @@ hr{
     .third{
     width: 10vw;
     display: block;
-    padding-left: 17vw;
+    padding-left: 20vw;
 
     }
     .p1,.p2,.p3,.p4,.p5{
