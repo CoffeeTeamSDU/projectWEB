@@ -1,0 +1,337 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Code Pro', monospace;
+    background-color: #BE9063;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+    position: fixed;
+    background-color: black;
+    /* font-size: 1.2vw; */
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    width: 80vw;
+    padding: 20px 10vw;
+    height: 7vh;
+}
+
+.logo {
+    cursor: pointer;
+    height: 100%;
+}
+
+.navbar-desk {
+    background-color: black;
+    padding-top: 3vh;
+}
+
+.navbar {
+    margin-right: 2vw;
+    position: relative;
+    color: #525B56;
+    text-decoration: none;
+    transition: 0.5s all;
+}
+
+.navbar-desk a:hover {
+    color: #A4978E;
+    border-bottom: .1rem solid #A4978E;
+    padding-bottom: .5rem;
+    transition: 0.5s all;
+}
+
+/* mobile adoptation */
+.navbar-mobile {
+    display: flex;
+    flex-direction: column;
+}
+#flip img {
+    height: 100%;
+}
+
+#panel {
+    padding: 50px;
+    font-size: 5vh;
+    display: flex;
+    flex-direction: column;
+}
+#panel, #flip {
+    background-color: black;
+    display: none;
+}
+
+.content h3{
+    margin-left: 18vw;
+}
+
+section {
+    padding:2vw 1vw;
+}
+.align{
+    margin-left: 20vw;
+}
+.btn {
+    margin-left: 20vw;
+    margin-top: 1vw;
+    display: inline-block;
+    padding:.9vw 3vw;
+    font-size: 1.7vw;
+    color:#525B56;
+    background-color: black;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 0.5vw;
+}
+
+.btn:hover {
+    color: #A4978E;
+    transition: 0.5s all;
+}
+
+/* archive */
+
+.archive {
+    display: none;
+}
+
+/*review*/
+.review{
+    padding-top: 15vh;
+    margin: 0 5vw;
+    display: flex;
+}
+
+.left {
+    position: static;
+    display: flex;
+    flex-direction: column;
+}
+
+.left button {
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    padding: 0;
+    margin-bottom: 5vh;
+    border-radius: 50%;
+    border-color: #525B56;
+    border-width: 0.3vw;
+    background-color: transparent;
+    filter: grayscale(100);
+}
+
+.left button:hover {
+    filter: grayscale(0);
+    transition: 0.5s all;
+}
+
+.small_img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+}
+
+.right {
+    margin: 0 10vw;
+}
+
+.right .name {
+    display: flex;
+    margin: 1vh 2vw;
+}
+
+.big_img {
+    width: 25vw;
+    height: 25vw;
+    border-radius: 5vw;
+    background-position: center;
+    box-shadow: 0.5vw 0.5vw 0.1vw #525B56;
+    background-size: cover;
+}
+
+.right .word {
+    margin-left: 4vw;   
+}
+
+.right h1 {
+    font-size: 6vw;
+}
+
+.right p {
+    margin: 3vh 1vw;
+    font-size: 2vw;
+}
+
+#espresso {
+    background-image: url(https://static.scientificamerican.com/sciam/cache/file/7C0BADB7-D030-4E4E-BE715FB20458C51E_source.jpg); 
+}
+#cappuccino {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/c/c8/Cappuccino_at_Sightglass_Coffee.jpg);
+}
+#latte {
+    background-image: url(https://i.pinimg.com/originals/71/34/65/713465f0d67287de3eb59c58e4c9fdcc.jpg);
+}
+#coretto {
+    background-image: url(https://i.pinimg.com/originals/a3/55/20/a35520d4e17c2adf1c239ba03b173923.jpg);
+}
+#mocha {
+    background-image: url(https://i.pinimg.com/originals/3d/12/79/3d1279c41301962c892f909529e82a82.jpg);
+}
+
+/* footer */
+footer {
+    border-bottom: 0.2vw black solid;
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.creator p {
+    margin-bottom: 14vw;
+    line-height: 2vw;
+    font-size: 1.5vw;
+}
+
+.prava {
+    text-align: center;
+}
+
+.write {
+    display: flex;
+    align-items: center;
+    
+}
+.tg {
+    width: 5vw;
+}
+
+.contact {
+    margin: 0 2vw;
+    margin-bottom: 2vw;
+    border: 0.1vw solid black;
+    background-color: black;
+    border-radius: 1vw;
+    display: flex;
+    padding: 1vw 2vw 1vw 0.5vw;
+    width: 15vw;
+    justify-content: center;
+}
+.contact a {
+    font-size: 1.2vw;
+    color: #A4978E;
+    text-decoration: none;
+}
+
+footer {
+    border-bottom: 0.2vw black solid;
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.creator p {
+    margin-bottom: 14vw;
+    line-height: 2vw;
+    font-size: 1.5vw;
+}
+
+.prava {
+    text-align: center;
+}
+
+/*footer section*/
+.footer{
+    text-align: center;
+}
+
+.footer .share{
+    padding: 1vw 0;
+}
+
+.footer .share a:hover{
+    background-color: var(--main-color);
+    box-shadow: 0.2vw 0.2vw 0.1vw #525B56;
+    transition: 0.5s all;
+}
+
+.footer .links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:2vw 0;
+    gap:2vw;
+}
+
+.footer .links a{
+    border: 0.2vw black solid;
+    text-decoration: none;
+    padding:.7vw 2vw;
+    color:black;
+    font-size: 2vw;
+    border-radius: 1vw;
+}
+
+.footer .links a:hover{
+    background: #A4978E;
+    box-shadow: 0.2vw 0.2vw 0.1vw #525B56;
+    transition: 0.5s all;
+}
+
+.footer .credit{
+    font-size: 2vw;
+    color: black;
+    font-weight: lighter;
+    padding:1.5vw;
+}
+
+.footer .credit span{
+    color: black;
+    font-weight: bold;
+}
+.top{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media (max-width: 900px) {
+    #flip {
+        display: flex;
+    }
+
+    .navbar-desk {
+        display: none;
+    }
+
+    .logo {
+        margin-right: 45vw;
+    }
+    
+    /* only for cofsees */
+    .right .word p {
+        font-size: 2vw;
+    }
+    .right p {
+        font-size: 4vw;
+    }
+}
