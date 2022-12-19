@@ -5,24 +5,39 @@ body {
     background-color: #BE9063;
 }
 header {
-    box-sizing: content-box;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
     z-index: 100;
     position: fixed;
-    padding: 20px 10vw;
     background-color: black;
+    /* font-size: 1.2vw; */
+}
+#flip{
+    cursor: pointer;
+}
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
     width: 80vw;
-    font-size: 1.2vw;
+    padding: 20px 10vw;
+    height: 7vh;
 }
 
 .logo {
     cursor: pointer;
+    height: 100%;
 }
 
 .navbar-desk {
     background-color: black;
+    padding-top: 3vh;
 }
 
 .navbar {
@@ -37,15 +52,31 @@ header {
     color: #A4978E;
     border-bottom: .1rem solid #A4978E;
     padding-bottom: .5rem;
+    transition: 0.5s all;
+}
+
+/* mobile adoptation */
+.navbar-mobile {
+    display: flex;
+    flex-direction: column;
+}
+#flip img {
+    height: 100%;
+}
+
+#panel {
+    padding: 50px;
+    font-size: 5vh;
+    display: flex;
+    flex-direction: column;
+}
+#panel, #flip {
+    background-color: black;
+    display: none;
 }
 
 .content h3 {
     margin-left: 18vw;
-}
-
-.logo {
-    margin-right: 30vw;
-    width: 3vw;
 }
 
 .text h1{
@@ -287,6 +318,28 @@ footer {
     }
 
     .contact4 a {
+        font-size: 4vw;
+    }
+}
+
+@media (max-width: 900px) {
+    #flip {
+        display: flex;
+    }
+
+    .navbar-desk {
+        display: none;
+    }
+
+    .logo {
+        margin-right: 45vw;
+    }
+    
+    /* only for cofsees */
+    .right .word p {
+        font-size: 2vw;
+    }
+    .right p {
         font-size: 4vw;
     }
 }
