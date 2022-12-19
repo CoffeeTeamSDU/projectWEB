@@ -61,6 +61,7 @@ header {
 }
 #flip img {
     height: 100%;
+    cursor: pointer;
 }
 
 #panel {
