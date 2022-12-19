@@ -1,0 +1,345 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Code Pro', monospace;
+    background-color: #BE9063;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+    position: fixed;
+    background-color: black;
+    /* font-size: 1.2vw; */
+}
+#flip{
+    cursor: pointer;
+}
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    width: 80vw;
+    padding: 20px 10vw;
+    height: 7vh;
+}
+
+.logo {
+    cursor: pointer;
+    height: 100%;
+}
+
+.navbar-desk {
+    background-color: black;
+    padding-top: 3vh;
+}
+
+.navbar {
+    margin-right: 2vw;
+    position: relative;
+    color: #525B56;
+    text-decoration: none;
+    transition: 0.5s all;
+}
+
+.navbar-desk a:hover {
+    color: #A4978E;
+    border-bottom: .1rem solid #A4978E;
+    padding-bottom: .5rem;
+    transition: 0.5s all;
+}
+
+/* mobile adoptation */
+.navbar-mobile {
+    display: flex;
+    flex-direction: column;
+}
+#flip img {
+    height: 100%;
+}
+
+#panel {
+    padding: 50px;
+    font-size: 5vh;
+    display: flex;
+    flex-direction: column;
+}
+#panel, #flip {
+    background-color: black;
+    display: none;
+}
+
+.content h3 {
+    margin-left: 18vw;
+}
+
+.text h1{
+    font-size: 10vw;
+    letter-spacing: 4vw;
+    text-align: center;
+}
+
+.back {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.center {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2vw;
+    align-items: center;
+    padding-bottom: 4vw;
+    border-bottom: 0.2vw solid black;
+}
+
+.coffee-type h2 {
+    font-size: 5vw;
+}
+
+.coffee-type a {
+    text-decoration: none;
+    color: white;
+    border: 0.1vw solid black;
+    padding: 1.5vw 4.5vw;
+    font-size: 1.5vw;
+    background-color: black;
+    border-radius: 2vw;
+}
+
+.ordering {
+    margin-top: 4.8vw;
+}
+
+.photo {
+    transition: all 0.2s linear;
+    border-radius: 2vw;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 45vw;
+    height: 25vw;
+}
+.text h1{
+    margin-left: 20vw;
+}
+.photo:hover {
+    margin: 1vw;
+    height: 23vw;
+    width: 43vw;
+}
+
+.photo1 {
+    background-image: url(https://static.scientificamerican.com/sciam/cache/file/7C0BADB7-D030-4E4E-BE715FB20458C51E_source.jpg);
+}
+
+.photo2 {
+    background-image: url(https://wallbox.ru/wallpapers/main2/201725/14978928755948080b1a38d9.12077544.jpg);
+}
+
+.photo3 {
+    background-image: url(https://i.pinimg.com/originals/71/34/65/713465f0d67287de3eb59c58e4c9fdcc.jpg);
+}
+
+.photo4 {
+    background-image: url(https://i.pinimg.com/originals/a3/55/20/a35520d4e17c2adf1c239ba03b173923.jpg);
+}
+
+.photo5 {
+    background-image: url(https://i.pinimg.com/originals/3d/12/79/3d1279c41301962c892f909529e82a82.jpg);
+}
+
+.item {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 45vw;
+    height: 45vw;
+}
+
+
+
+.write {
+    display: flex;
+    align-items: center;
+    
+}
+.tg {
+    width: 5vw;
+}
+.contact {
+    
+    margin-left: 5vw;
+    margin-bottom: 2vw;
+    border: 0.2vw solid black;
+    background-color: black;
+    border-radius: 2vw;
+    display: flex;
+    padding: 1.5vw 3vw 1.5vw 1vw;
+    width: 15vw;
+    align-items: center;
+}
+.contact a {
+    font-size: 1.2vw;
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    border-bottom: 0.2vw black solid;
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.creator p {
+    margin-bottom: 14vw;
+    line-height: 2vw;
+    font-size: 1.5vw;
+}
+
+.prava {
+    text-align: center;
+}
+
+/*footer section*/
+.footer{
+    text-align: center;
+}
+
+.footer .share{
+    padding: 1vw 0;
+}
+
+.footer .share a:hover{
+    background-color: var(--main-color);
+}
+
+.footer .links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:2vw 0;
+    gap:1vw;
+}
+
+.footer .links a{
+    border: 0.1vw black solid;
+    text-decoration: none;
+    padding:.7vw 2vw;
+    color:black;
+    font-size: 2vw;
+    border-radius: 1vw;
+}
+
+.footer .links a:hover{
+    background: red;
+}
+
+.footer .credit{
+    font-size: 2vw;
+    color: black;
+    font-weight: lighter;
+    padding:1.5vw;
+}
+
+.footer .credit span{
+    color: black;
+    font-weight: bold;
+}
+.top{
+    display: flex;
+}
+
+@media (max-width: 800px) {
+    .logo {
+        width: 6vw;
+    }
+
+    .navbar-desk {
+        margin-left: 20.5vw;
+    }
+
+    .navbar-desk a {
+        font-size: 2vw;
+    }
+
+    .center {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .photo {
+        width: 70vw;
+        height: 50vw;
+    }
+
+    .photo:hover {
+        width: 68vw;
+        height: 48vw;
+    }
+
+    .ordering a {
+        font-size: 6vw;
+    }
+
+    .contact a {
+        font-size: 1vw;
+        padding: 0.1vw;
+    }
+
+    .item {
+        width: 20vw;
+        height: 20vw;
+    }
+
+    .write {
+        margin-left: 0;
+    }
+
+    .write a {
+        width: 30vw;
+        font-size: 3vw;
+    }
+
+    .creator p {
+        font-size: 4vw;
+        line-height: 6vw
+    }
+
+    .contact4 a {
+        font-size: 4vw;
+    }
+}
+
+@media (max-width: 900px) {
+    #flip {
+        display: flex;
+    }
+
+    .navbar-desk {
+        display: none;
+    }
+
+    .logo {
+        margin-right: 45vw;
+    }
+    
+    /* only for cofsees */
+    .right .word p {
+        font-size: 2vw;
+    }
+    .right p {
+        font-size: 4vw;
+    }
+}
