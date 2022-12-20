@@ -67,9 +67,22 @@ header {
 #panel {
     padding: 50px;
     font-size: 5vh;
+    text-align: center;
     display: flex;
     flex-direction: column;
 }
+
+#btnback{
+    border-radius: 50px;
+    background-color: black;
+    border: 2px solid #A4978E;
+}
+#btnback2{
+    background-color: black;
+    font-size: 5vh;
+    border-radius: 50px;
+}
+
 #panel, #flip {
     background-color: black;
     display: none;
@@ -165,7 +178,7 @@ header {
     height: 45vw;
 }
 
-
+/* footer section */
 
 .write {
     display: flex;
@@ -245,7 +258,6 @@ footer {
     text-align: center;
 }
 
-/*footer section*/
 .footer {
     text-align: center;
 }
