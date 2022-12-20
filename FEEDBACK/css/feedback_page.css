@@ -72,8 +72,7 @@ header {
     flex-direction: column;
 }
 
-#panel,
-#flip {
+#panel, #flip {
     background-color: black;
     display: none;
 }
