@@ -96,6 +96,7 @@ header {
     font-size: 10vw;
     letter-spacing: 4vw;
     text-align: center;
+    margin-top: 15vh;
 }
 
 .back {
@@ -140,9 +141,9 @@ header {
     width: 45vw;
     height: 25vw;
 }
-.text h1{
+/* .text h1{
     margin-left: 20vw;
-}
+} */
 .photo:hover {
     margin: 1vw;
     height: 23vw;
@@ -310,6 +311,7 @@ footer {
 .top{
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 
