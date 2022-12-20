@@ -1,7 +1,5 @@
-function change(element){
-    var a = element.innerHTML;
-    var x = document.getElementById("myBR");
-
+function load(){
+        $(".img").animate({opacity: '1'}, "slow")
         $(".p1").animate({left:'+=100px'}, "fast");
         $(".p1").animate({left:'-=100px'}, "fast");
         $(".p2").animate({left:'-=100px'}, "fast");
@@ -12,11 +10,6 @@ function change(element){
         $(".p4").animate({left:'+=100px'}, "fast");
         $(".p5").animate({left:'+=100px'}, "fast");
         $(".p5").animate({left:'-=100px'}, "fast");
-
-}
-
-function load(){
-        $(".img").animate({opacity: '1'}, "slow")
 }
 
 window.addEventListener('scroll', handleScroll);
@@ -30,16 +23,28 @@ function handleScroll() {
 
 var elem = document.getElementById("btnback");
 btnback.onclick = function myFunction() {
-    if(document.body.style.backgroundColor) document.body.style.backgroundColor = "";
-    
-    else
-       document.body.style.backgroundColor = "#fff";     
+    if(document.body.style.backgroundColor) {
+        document.body.style.backgroundColor = "";
+        document.getElementById("btnback2").innerHTML = "☀️";
+        document.getElementById("btnback").innerHTML = "☀️";
+    }
+    else{
+        document.getElementById("btnback2").innerHTML = "☕";
+        document.getElementById("btnback").innerHTML = "☕";
+        document.body.style.backgroundColor = "#fff";  
+    }
 }
 
 var elem2 = document.getElementById("btnback2");
 btnback2.onclick = function myFunction() {
-    if(document.body.style.backgroundColor) document.body.style.backgroundColor = "";
-    
-    else
-       document.body.style.backgroundColor = "#fff";     
+    if(document.body.style.backgroundColor) {
+        document.body.style.backgroundColor = "";
+        document.getElementById("btnback").innerHTML = "☀️";
+        document.getElementById("btnback2").innerHTML = "☀️";
+    }
+    else{
+        document.getElementById("btnback").innerHTML = "☕";
+        document.getElementById("btnback2").innerHTML = "☕";
+        document.body.style.backgroundColor = "#fff";     
+    }
 }
