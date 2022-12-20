@@ -4,7 +4,7 @@ btnback.onclick = function myFunction() {
     
     else
        document.body.style.backgroundColor = "#fff";     
-};
+}
 
 var elem2 = document.getElementById("btnback2");
 btnback2.onclick = function myFunction() {
@@ -12,4 +12,4 @@ btnback2.onclick = function myFunction() {
     
     else
        document.body.style.backgroundColor = "#fff";     
-};
+}
